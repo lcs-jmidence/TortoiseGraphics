@@ -10,13 +10,13 @@ canvas.frameRate = 200
 canvas.color = .white
 PlaygroundPage.current.liveView = canvas
 
-canvas.color = Color.black 
+canvas.color = Color.black
 canvas.drawing { turtle in
     
     turtle.fillColor(.blue)
     
     // Draw a square
-    
+    turtle.penColor(.blue)
     turtle.beginFill()
     
     for _ in 1...36 {
@@ -28,7 +28,7 @@ canvas.drawing { turtle in
         }
         
     }
-    turtle.endFill()
+     
     
 }
 
