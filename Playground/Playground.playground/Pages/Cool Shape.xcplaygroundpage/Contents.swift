@@ -6,30 +6,27 @@ import CoreGraphics
 
 let myFrame = CGRect(x: 0, y: 0, width: 600, height: 600)
 let canvas = PlaygroundCanvas(frame: myFrame)
-canvas.frameRate = 300
-canvas.color = .white
+canvas.frameRate = 50
 PlaygroundPage.current.liveView = canvas
 
 canvas.color = Color.black
 canvas.drawing { turtle in
     
-    turtle.fillColor(.blue)
-    
-    // Draw a square
+    //Color choices
+    turtle.goto(0, 0)
+    turtle.fillColor(.purple)
     turtle.penColor(.blue)
+    turtle.penSize(3)
     turtle.beginFill()
     
-    for _ in 1...360 {
+    //Loops that makes shape
+    for _ in 1...6 {
         
-        for _ in 1...4 {
-            turtle.forward(200)
-            turtle.right(90)
-            
-        }
-        turtle.right(1)
+        turtle.julio()
+        turtle.right(60)
         
-    }
-    
+    } 
+    turtle.endFill()
     
 }
 

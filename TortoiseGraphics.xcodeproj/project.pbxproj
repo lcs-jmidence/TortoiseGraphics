@@ -40,6 +40,8 @@
 		14C3A09D201CA62000C7A28C /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C3A09C201CA62000C7A28C /* Shape.swift */; };
 		14D753A91FE173C80038F931 /* CommandFill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D753A81FE173C80038F931 /* CommandFill.swift */; };
 		14D753AB1FE17D290038F931 /* Vec2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D753AA1FE17D290038F931 /* Vec2D.swift */; };
+		D3328FF4218B35E8001AC7C4 /* Cursive Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3328FF3218B35E8001AC7C4 /* Cursive Name.swift */; };
+		D366E74E2183517F00B5FBA6 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D366E74D2183517F00B5FBA6 /* Extensions.swift */; };
 		OBJ_109 /* TortoiseGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_53 /* TortoiseGraphics.framework */; };
 /* End PBXBuildFile section */
 
@@ -87,6 +89,8 @@
 		14C3A09C201CA62000C7A28C /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
 		14D753A81FE173C80038F931 /* CommandFill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandFill.swift; sourceTree = "<group>"; };
 		14D753AA1FE17D290038F931 /* Vec2D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vec2D.swift; sourceTree = "<group>"; };
+		D3328FF3218B35E8001AC7C4 /* Cursive Name.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cursive Name.swift"; sourceTree = "<group>"; };
+		D366E74D2183517F00B5FBA6 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		OBJ_53 /* TortoiseGraphics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TortoiseGraphics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_54 /* TortoiseGraphicsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = TortoiseGraphicsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
@@ -114,6 +118,8 @@
 		142F5C841EDC5688008BEFAB /* Internal */ = {
 			isa = PBXGroup;
 			children = (
+				D3328FF3218B35E8001AC7C4 /* Cursive Name.swift */,
+				D366E74D2183517F00B5FBA6 /* Extensions.swift */,
 				14B5090F1FE7FDF700ABA1E2 /* TortoiseCharmer.swift */,
 				145624911ED99E4800173B9A /* GraphicsContext.swift */,
 				141772761EE2930600C0CBC7 /* Angle.swift */,
@@ -300,6 +306,7 @@
 				142F5C9A1EDC6246008BEFAB /* CommandPenSize.swift in Sources */,
 				145624941EDA4FDA00173B9A /* CommandRight.swift in Sources */,
 				14093AB7201CB8D600C2B5AE /* CommandShape.swift in Sources */,
+				D3328FF4218B35E8001AC7C4 /* Cursive Name.swift in Sources */,
 				142F5C901EDC5B31008BEFAB /* CommandHome.swift in Sources */,
 				142F5C881EDC58D6008BEFAB /* CommandSetPosition.swift in Sources */,
 				142F5C831EDC5683008BEFAB /* Tortoise+Motion.swift in Sources */,
@@ -316,6 +323,7 @@
 				145624921ED99E4800173B9A /* GraphicsContext.swift in Sources */,
 				145624981EDAA48D00173B9A /* ImageCanvas.swift in Sources */,
 				145624901ED99D8600173B9A /* State.swift in Sources */,
+				D366E74E2183517F00B5FBA6 /* Extensions.swift in Sources */,
 				1456248E1ED99D1900173B9A /* Command.swift in Sources */,
 				142F5C9C1EDC63DA008BEFAB /* Tortoise+TortoiseState.swift in Sources */,
 			);
