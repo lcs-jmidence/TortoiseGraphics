@@ -15,7 +15,7 @@ public extension Tortoise {
         self.curve(withSides: -15, withSize: 6, drawSides: 7)
         self.curve(withSides: 30, withSize: 10, drawSides: 7)
     }
-
+    
     func lowercaseU() {
         //lowercase U
         //initial half-circle
@@ -26,7 +26,7 @@ public extension Tortoise {
         self.right(220)
         self.curve(withSides: -16, withSize: 8, drawSides: 5)
     }
-
+    
     func lowercaseL() {
         //lowercase L
         //initial loop
@@ -35,7 +35,7 @@ public extension Tortoise {
         self.right(270)
         self.curve(withSides: -18, withSize: 16, drawSides: 6)
     }
-
+    
     func lowercaseI() {
         //lowercaseI
         //1st swoosh
@@ -52,8 +52,9 @@ public extension Tortoise {
         self.backward(40)
         self.right(90)
         self.forward(24)
+        self.setHeading(90)
     }
-
+    
     func lowercaseO() {
         //LowercaseO
         //circle for the O
@@ -68,5 +69,49 @@ public extension Tortoise {
         self.curve(withSides: -10, withSize: 12, drawSides: 4)
         self.setHeading(90)
     }
-
+    
+    func uppercaseM() {
+        //UpercaseM
+        self.backward(275)
+        self.right(90)
+        self.forward(150)
+        self.left(120)
+        self.curve(withSides: 10, withSize: 10, drawSides: 4)
+        //1st "u" shape
+        self.right(160)
+        self.setHeading(90)
+        self.right(90)
+        //1st "stick"
+        self.curve(withSides: 1, withSize: 30, drawSides: 3)
+        self.backward(100)
+        self.setHeading(90)
+        //little curve
+        self.curve(withSides: 10, withSize: 12, drawSides: 3)
+        self.setHeading(180)
+        //2nd "stick"
+        self.curve(withSides: 1, withSize: 28, drawSides: 3)
+        //3rd "stick"
+        self.backward(98)
+        self.setHeading(70)
+        self.curve(withSides: 10, withSize: 12, drawSides: 3)
+        self.curve(withSides: 1, withSize: 22, drawSides: 3)
+        //final swoosh
+        self.curve(withSides: -10, withSize: 10, drawSides: 4)
+    }
+    
+    func lowercaseD() {
+        //lowercaseD
+        self.left(130)
+        self.curve(withSides: 15, withSize: 8, drawSides: 15)
+        //draw not full cirlce in order to go to the other side to draw the stick of the d
+        self.curve(withSides: 15, withSize: 8, drawSides: 9)
+        self.setHeading(0)
+        self.curve(withSides: 1, withSize: 15, drawSides: 5)
+        //final swoosh
+        self.setHeading(180)
+        self.forward(70)
+        self.curve(withSides: -20, withSize: 7, drawSides: 7)
+        
+    }
+    
 }

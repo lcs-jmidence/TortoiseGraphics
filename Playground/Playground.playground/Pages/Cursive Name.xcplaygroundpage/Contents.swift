@@ -19,7 +19,7 @@ canvas.drawing { t in
     t.penUp()
     t.goto(-200, 150)
     //set pen width
-    t.penSize(4)
+    t.penSize(5)
     t.hideTortoise()
     
     //Draw my First Name  
@@ -30,33 +30,20 @@ canvas.drawing { t in
     t.lowercaseO()
     
     //Draw my Last Name
-    //UpercaseM
-    t.backward(275)
-    t.right(90)
-    t.forward(150)
-    t.left(120)
-    t.curve(withSides: 10, withSize: 10, drawSides: 4)
-    //1st "u" shape
-    t.right(160)
-    t.setHeading(90)
-    t.right(90)
-    //1st "stick"
-    t.curve(withSides: 1, withSize: 30, drawSides: 3)
-    t.backward(100)
-    t.setHeading(90)
-    //little curve
-    t.curve(withSides: 10, withSize: 12, drawSides: 3)
-    t.setHeading(180)
-    //2nd "stick"
-    t.curve(withSides: 1, withSize: 28, drawSides: 3)
-    //3rd "stick"
-    t.backward(98)
-    t.setHeading(70)
-    t.curve(withSides: 10, withSize: 12, drawSides: 3)
-    t.curve(withSides: 1, withSize: 22, drawSides: 3)
-    //final swoosh
-    t.curve(withSides: -10, withSize: 10, drawSides: 4)
-    
+    t.uppercaseM()
+    t.right(65)
+    t.lowercaseI()
+    t.lowercaseD()
+    //lowercaseE
+    //initial swoosh
+    t.right(35)
+    t.curve(withSides: -18, withSize: 6, drawSides: 6)
+    //initial of second swoosh
+    t.curve(withSides: -15, withSize: 5, drawSides: 10)
+    //2nd swoosh/final
+    t.right(15)
+    t.curve(withSides: -24, withSize: 10, drawSides: 4)
+
 }
 
 
