@@ -37,6 +37,7 @@ canvas.drawing { t in
     t.lowercaseE()
     t.lowercaseN()
     t.lowercaseC()
+    t.right(50)
     t.lowercaseE() 
 }
 
