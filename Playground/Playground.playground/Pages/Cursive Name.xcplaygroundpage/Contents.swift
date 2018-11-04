@@ -34,16 +34,10 @@ canvas.drawing { t in
     t.right(65)
     t.lowercaseI()
     t.lowercaseD()
-    //lowercaseE
-    //initial swoosh
-    t.right(35)
-    t.curve(withSides: -18, withSize: 6, drawSides: 6)
-    //initial of second swoosh
-    t.curve(withSides: -15, withSize: 5, drawSides: 10)
-    //2nd swoosh/final
-    t.right(15)
-    t.curve(withSides: -24, withSize: 10, drawSides: 4)
-
+    t.lowercaseE()
+    t.lowercaseN()
+    t.lowercaseC()
+    t.lowercaseE() 
 }
 
 
