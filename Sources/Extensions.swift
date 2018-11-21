@@ -11,11 +11,11 @@ public extension Tortoise {
 
     }
 
-    func julio () {
+    func coolshape () {
         for _ in 1...6 {
 
             for _ in 1...3 {
-                self.forward(150)
+                self.forward(130)
                 self.right(90)
 
             }

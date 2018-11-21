@@ -23,22 +23,22 @@ canvas.drawing { t in
     t.hideTortoise()
     
     //Draw my First Name  
-    t.uppercaseJ()
-    t.lowercaseU()
-    t.lowercaseL()
-    t.lowercaseI()
-    t.lowercaseO()
+    t.uppercaseJ(scaleFactor: 1.0)
+    t.lowercaseU(scaleFactor: 1.0)
+    t.lowercaseL(scaleFactor: 1.0)
+    t.lowercaseI(scaleFactor: 1.0)
+    t.lowercaseO(scaleFactor: 1.0)
     
     //Draw my Last Name
-    t.uppercaseM()
+    t.uppercaseM(scaleFactor: 1.0)
     t.right(65)
-    t.lowercaseI()
-    t.lowercaseD()
-    t.lowercaseE()
-    t.lowercaseN()
-    t.lowercaseC()
-    t.right(50)
-    t.lowercaseE() 
+    t.lowercaseI(scaleFactor: 1.0)
+    t.lowercaseD(scaleFactor: 1.0)
+    t.lowercaseE(scaleFactor: 1.0)
+    t.lowercaseN(scaleFactor: 1.0)
+    t.lowercaseC(scaleFactor: 1.0)
+    t.right(50) 
+    t.lowercaseE(scaleFactor: 1.0)
 }
 
 
