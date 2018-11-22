@@ -29,6 +29,7 @@ canvas.drawing { turtle in
         
     }
     //turtle.endFill()
+    turtle.hideTortoise()
     
 }
 

@@ -6,7 +6,7 @@ import CoreGraphics
 
 let myFrame = CGRect(x: 0, y: 0, width: 600, height: 600)
 let canvas = PlaygroundCanvas(frame: myFrame)
-canvas.frameRate = 50
+canvas.frameRate = 60
 PlaygroundPage.current.liveView = canvas
 
 canvas.color = Color.black
@@ -22,11 +22,11 @@ canvas.drawing { turtle in
     //Loops that makes shape
     for _ in 1...6 {
         
-        turtle.julio()
+        turtle.coolshape()
         turtle.right(60)
         
     } 
     turtle.endFill()
-    
+    turtle.hideTortoise()
 }
 
