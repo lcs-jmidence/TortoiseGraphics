@@ -13,17 +13,7 @@ PlaygroundPage.current.liveView = canvas
 
 // Start drawing
 canvas.drawing { turtle in
-    turtle.hideTortoise()
-    turtle.penSize(2)
-    for _ in 1...36 {
-        for _ in 1...4 {
-            turtle.curve(withSides: 20, withSize: 12, drawSides: 20)
-            turtle.forward(25)
-        }
-        turtle.backward(100)
-        turtle.right(10)
-
-    }
+    turtle.doylie(scaleFactor: 1.0)
 }
 
 

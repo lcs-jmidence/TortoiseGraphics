@@ -42,6 +42,7 @@
 		14D753AB1FE17D290038F931 /* Vec2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D753AA1FE17D290038F931 /* Vec2D.swift */; };
 		D3328FF4218B35E8001AC7C4 /* Cursive Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3328FF3218B35E8001AC7C4 /* Cursive Name.swift */; };
 		D366E74E2183517F00B5FBA6 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D366E74D2183517F00B5FBA6 /* Extensions.swift */; };
+		D3A7FEB621A87A9E004804C7 /* Line Art.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A7FEB521A87A9E004804C7 /* Line Art.swift */; };
 		OBJ_109 /* TortoiseGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_53 /* TortoiseGraphics.framework */; };
 /* End PBXBuildFile section */
 
@@ -91,6 +92,7 @@
 		14D753AA1FE17D290038F931 /* Vec2D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vec2D.swift; sourceTree = "<group>"; };
 		D3328FF3218B35E8001AC7C4 /* Cursive Name.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cursive Name.swift"; sourceTree = "<group>"; };
 		D366E74D2183517F00B5FBA6 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		D3A7FEB521A87A9E004804C7 /* Line Art.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Line Art.swift"; sourceTree = "<group>"; };
 		OBJ_53 /* TortoiseGraphics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TortoiseGraphics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_54 /* TortoiseGraphicsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = TortoiseGraphicsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 		142F5C841EDC5688008BEFAB /* Internal */ = {
 			isa = PBXGroup;
 			children = (
+				D3A7FEB521A87A9E004804C7 /* Line Art.swift */,
 				D3328FF3218B35E8001AC7C4 /* Cursive Name.swift */,
 				D366E74D2183517F00B5FBA6 /* Extensions.swift */,
 				14B5090F1FE7FDF700ABA1E2 /* TortoiseCharmer.swift */,
@@ -299,6 +302,7 @@
 				142F5C921EDC5C30008BEFAB /* CommandDot.swift in Sources */,
 				142F5C8E1EDC5A94008BEFAB /* CommandSetHeading.swift in Sources */,
 				142F5C951EDC6077008BEFAB /* CommandPenDown.swift in Sources */,
+				D3A7FEB621A87A9E004804C7 /* Line Art.swift in Sources */,
 				1456315E1FE4809D00B3B2A9 /* PlaygroundCanvas.swift in Sources */,
 				14588D181EDF042300922BE4 /* CommandColor.swift in Sources */,
 				14588D161EDF03D700922BE4 /* Color+CGColor.swift in Sources */,
