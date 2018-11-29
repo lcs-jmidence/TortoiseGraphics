@@ -13,7 +13,7 @@ PlaygroundPage.current.liveView = canvas
 
 // Start drawing
 canvas.drawing { turtle in
-    turtle.doylie(scaleFactor: 1.0)
+    turtle.dirtydoylie(scaleFactor: 1.0)
 }
 
 

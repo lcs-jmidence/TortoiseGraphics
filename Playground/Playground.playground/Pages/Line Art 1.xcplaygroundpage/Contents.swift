@@ -23,13 +23,9 @@ canvas.drawing { turtle in
     
     //Loops that makes shape
     for _ in 1...6 {
-        
+        turtle.hideTortoise()
         turtle.coolshape()
         turtle.right(60)
-        
     }
-    //turtle.endFill()
-    turtle.hideTortoise()
-    
 }
 
