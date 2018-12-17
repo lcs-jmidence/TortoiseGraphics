@@ -10,22 +10,22 @@ canvas.frameRate = 50
 PlaygroundPage.current.liveView = canvas
 
 canvas.color = Color.black
-canvas.drawing { turtle in
+canvas.drawing { t in
     
     //Color choices
-    turtle.goto(0, 0)
+    t.goto(0, 0)
     canvas.color = .white
-    //turtle.fillColor(.purple)
-    turtle.penColor(.black)
-    turtle.penSize(1.5)
-    //turtle.beginFill()
+    //t.fillColor(.purple)
+    t.penColor(.black)
+    t.penSize(1.5)
+    //t.beginFill()
     
     
     //Loops that makes shape
     for _ in 1...6 {
-        turtle.hideTortoise()
-        turtle.coolshape()
-        turtle.right(60)
+        t.hideTortoise()
+        t.coolshape()
+        t.right(60)
     }
 }
 

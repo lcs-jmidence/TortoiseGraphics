@@ -12,17 +12,17 @@ PlaygroundPage.current.liveView = canvas
 
 
 // Start drawing
-canvas.drawing { turtle in
+canvas.drawing { t in
     
     //define the square method
     func square(withSize size: Double) {
         
-        turtle.penDown()
+        t.penDown()
         for _ in 1...4 {
-            turtle.forward(size)
-            turtle.right(90)
+            t.forward(size)
+            t.right(90)
         }
-        turtle.penUp()
+        t.penUp()
     }
     
     //Invoke the square method

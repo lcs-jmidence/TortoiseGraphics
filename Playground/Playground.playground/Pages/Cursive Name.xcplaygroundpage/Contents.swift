@@ -15,7 +15,7 @@ PlaygroundPage.current.liveView = canvas
 // Start drawing
 canvas.drawing { t in
     
-    //Start turtle at top left corner
+    //Start t at top left corner
     t.penUp()
     t.goto(-200, 150)
     //set pen width

@@ -4,7 +4,7 @@ import PlaygroundSupport
 import TortoiseGraphics
 import CoreGraphics
 
-let myFrame = CGRect(x: 0, y: 0, width: 500, height: 500)
+let myFrame = CGRect(x: 0, y: 0, width: 800, height: 600)
 let canvas = PlaygroundCanvas(frame: myFrame)
 canvas.frameRate = 300
 canvas.color = .white
@@ -12,8 +12,8 @@ PlaygroundPage.current.liveView = canvas
 
 
 // Start drawing
-canvas.drawing { turtle in
-    turtle.dirtydoylie(scaleFactor: 1.0)
+canvas.drawing { t in
+    t.dirtydoylie(scaleFactor: 1.0)
 }
 
 

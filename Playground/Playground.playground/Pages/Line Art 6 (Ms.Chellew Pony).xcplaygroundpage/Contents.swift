@@ -4,34 +4,22 @@ import PlaygroundSupport
 import TortoiseGraphics
 import CoreGraphics
 
-let myFrame = CGRect(x: 0, y: 0, width: 300, height: 300)
+let myFrame = CGRect(x: 0, y: 0, width: 800, height: 600)
 let canvas = PlaygroundCanvas(frame: myFrame)
-canvas.frameRate = 10
+canvas.frameRate = 100
 canvas.color = .white
 PlaygroundPage.current.liveView = canvas
 
 
 // Start drawing
 canvas.drawing { t in
-    
-    // draw the axes
-    for _ in 1...4 {
-        t.forward(150)
-        t.backward(150)
-        t.right(90)
-        
-    }
-    
-    // Go to top left corner
+    //Draw the pony's tail
+    t.penSize (1.5)
     t.penUp()
-    t.goto(-150, 150)
+    t.goto(100, 0)
     t.penDown()
+    t.curve(withSides: -40, withSize: 5, drawSides: 40)
     
-    //Make Vertical Lines
- 
-    
-    
-    //Make Horizontal Lines
     
 }
 

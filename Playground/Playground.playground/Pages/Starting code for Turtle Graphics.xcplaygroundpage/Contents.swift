@@ -12,7 +12,7 @@ PlaygroundPage.current.liveView = canvas
 
 
 // Start drawing
-canvas.drawing { turtle in
+canvas.drawing { t in
     
     
     

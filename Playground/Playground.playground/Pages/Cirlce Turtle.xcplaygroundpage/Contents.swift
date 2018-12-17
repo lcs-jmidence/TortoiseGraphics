@@ -11,22 +11,27 @@ canvas.color = .white
 PlaygroundPage.current.liveView = canvas
 
 canvas.color = Color.black
-canvas.drawing { turtle in
+canvas.drawing { t in
     
-    turtle.fillColor(.blue)
+    t.fillColor(.blue)
     
     // Draw a square
-    turtle.penColor(.blue)
-    turtle.beginFill()
+    t.penColor(.blue)
+    t.beginFill()
     
     for _ in 1...360 {
         
         for _ in 1...4 {
-            turtle.forward(200)
-            turtle.right(90)
+            t.forward(200)
+            t.right(90)
             
         }
-        turtle.right(1)
+        t.right(1)
+        for _ in 1...4 {
+            t.forward(200)
+            t.right(90)
+            
+        }
         
     }
     

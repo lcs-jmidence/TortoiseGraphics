@@ -23,7 +23,7 @@ canvas.drawingWithTortoises(count: 2) { tortoises in
     🐇.fillColor(.lightBlue)
     🐇.right(90)
     
-    // Turtle Star!
+    // t Star!
     🐢.beginFill()
     🐇.beginFill()
     🐢.repeat(36) {
