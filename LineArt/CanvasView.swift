@@ -41,26 +41,23 @@ class CanvasView: NSView {
 //            t.dirtydoylie(scaleFactor: 2.0)
 //            t.penDown()
             
-            
+
             //Pony Line Art
-            t.ponytail()
-            //Draw the back and the hair
+            t.ponytail(scaleFactor: 1.2)
+            t.back(scaleFactor: 1.0)
+            t.hair(scaleFactor: 1.0)
+            //Draw Horn & Face Hair
+            //Move turtle to correct position
             t.setHeading(0)
-            t.left(40)
-            t.curve(withSides: -40, withSize: 6, drawSides: 8)
-            t.left(4)
-            t.curve(withSides: 40, withSize: 7.5, drawSides: 5)
+            t.forward(80)
             t.setHeading(270)
-            t.curve(withSides: 1, withSize: 10, drawSides: 4)
-            //Start on the hair
-            //draw middle strand
-            t.right(192)
-            t.curve(withSides: -40, withSize: 2.5, drawSides: 8)
-            //transition into right hair strand
-            t.left(110)
-            t.curve(withSides: 40, withSize: 5, drawSides: 7)
-            t.right(130)
-            t.curve(withSides: -40, withSize: 5, drawSides: 7)
+            t.forward(170)
+            //Draw Horn
+            t.setHeading(0)
+            t.curve(withSides: 3, withSize: 90, drawSides: 2)
+            //Draw Face hair
+            //scale down "hair" and turn it
+            
             
             
             
