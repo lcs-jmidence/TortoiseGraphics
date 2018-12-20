@@ -47,8 +47,22 @@ class CanvasView: NSView {
             //Draw the back and the hair
             t.setHeading(0)
             t.left(40)
-            t.curve(withSides: -40, withSize: 12, drawSides: 8)
-        
+            t.curve(withSides: -40, withSize: 6, drawSides: 8)
+            t.left(4)
+            t.curve(withSides: 40, withSize: 7.5, drawSides: 5)
+            t.setHeading(270)
+            t.curve(withSides: 1, withSize: 10, drawSides: 4)
+            //Start on the hair
+            //draw middle strand
+            t.right(192)
+            t.curve(withSides: -40, withSize: 2.5, drawSides: 8)
+            //transition into right hair strand
+            t.left(110)
+            t.curve(withSides: 40, withSize: 5, drawSides: 7)
+            t.right(130)
+            t.curve(withSides: -40, withSize: 5, drawSides: 7)
+            
+            
             
         }
     }
